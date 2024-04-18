@@ -28,7 +28,7 @@ function nextQuestion(choiceNumber) {
   renderQuestion()
 }
 function showResultPage() {
-  location.href='/assets/results.html?mbti=' + mbti
+  location.href='/results.html?mbti=' + mbti
 }
 
 choice1El.addEventListener('click', function() {
